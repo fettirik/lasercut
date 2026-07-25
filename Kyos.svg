@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100mm"
+     height="100mm"
+     viewBox="0 0 1000 1000">
+
+  <!-- Logo-Gruppe zentriert -->
+  <g transform="translate(200 350)">
+
+    <!-- K-Form -->
+    <path d="
+      M 0 0
+      L 0 300
+      L 70 300
+      L 70 180
+      L 230 300
+      L 330 300
+      L 160 160
+      L 330 0
+      L 230 0
+      L 70 140
+      L 70 0
+      Z"
+      fill="#1A73E8"/>
+
+    <!-- Key-Kreis (zentriert im K) -->
+    <circle cx="185" cy="150" r="32" fill="#00D1C2"/>
+
+    <!-- Key-Stab -->
+    <rect x="185" y="142" width="150" height="16" fill="#2E2E2E"/>
+    <rect x="305" y="132" width="16" height="36" fill="#2E2E2E"/>
+
+    <!-- Text KeyOS -->
+    <text x="380"
+          y="210"
+          font-family="Montserrat, Arial, sans-serif"
+          font-size="120"
+          font-weight="600"
+          fill="#2E2E2E">
+      Key<tspan fill="#1A73E8">OS</tspan>
+    </text>
+
+  </g>
+</svg>
